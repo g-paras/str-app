@@ -73,7 +73,6 @@ st.line_chart(pd.concat([df['High'] + df['Close']]))
 predictions = [1, 2, 3, 4]
 test = [4, 5, 6, 7]
 fig, ax = plt.subplots()
-ax.title('x-axis')
 ax.plot(predictions, label="line 1")
 ax.plot(test, label="line 2")
 ax.legend()
